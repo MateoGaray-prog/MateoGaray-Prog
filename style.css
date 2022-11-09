@@ -1,0 +1,347 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+body{
+	overflow: scroll;
+	background-size: cover;
+	width: 100vw;
+}
+header{
+	position: relative;
+}
+.nav{
+	background-color: yellow;
+	height: 100vh;
+	width: 100%;
+}
+.nav__responsive-button{
+	float: right;
+	font-size: 25px;
+	padding: 5px 15px;
+}
+.nav__li{
+	display: inline-block;
+	padding: 10px;
+	color: red;
+}
+.nav__li:hover{
+	color: #359;
+}
+.nav__li:hover>a{
+	color: #190	;	
+}
+.nav__li a{
+	color: black;
+	margin-left: 10px;
+}
+.nav__li i{
+	text-align: center;
+	padding: 2px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 5px;
+}
+.nav__responsive-ul{
+	display: none;
+}
+.div-padre{
+	text-align:center;
+}
+.div-hijo{
+	color: white;
+	margin:0px auto;
+	background: blueviolet;
+	display: inline-block;
+	padding: 15px;
+	margin-top: 30px;
+	width: 80vmin;
+	height: 120%;
+	font-size: 1.5em;
+	border: 3px yellow solid;
+	text-shadow: 12px 12px 15px black, 12px 12px 15px black, 12px 12px 15px black;
+}
+
+
+.contenedor{
+	margin: auto;
+	background: grey;
+	height: 900px;
+	width: 900px;
+	padding: 15px;
+	overflow: scroll;
+	margin-top: 50px;
+	border: 2px red solid;
+}
+.img-div-2{
+	float: right;
+	margin: 10px;
+	position: relative;
+	width: 350px;
+	height: 400px;
+}
+.img-div-2:hover{
+	float: right;
+	margin: 10px;
+	position: relative;
+	border: 10px yellow solid;
+	transition: 1.5s;
+}
+.a1{
+	margin: 10px;
+	position: relative;
+}
+.a1::first-line{
+	color: darkred;
+}
+.a1::first-letter{
+	font-size: 2.5em;
+	color: yellow;
+}
+.a2:hover{
+	display: inline-block;
+	position: relative;
+	width: 450px;
+	height: 150px;
+	font-size: 50px;
+	background: black;
+	border: 5px blue dashed;
+}
+form{
+	margin: 10px auto;
+	text-align: center;
+}
+input{
+	padding: 10px;
+}
+.input-name::placeholder{
+	color: red;
+}
+.input-name{
+	margin-bottom: 20px;
+}
+.input-surname::placeholder{
+	color: hotpink;
+}
+.input-surname{
+	margin-bottom: 20px;
+}
+.input-email::placeholder{
+	color: blueviolet;
+}
+.input-email{
+	margin-bottom: 20px;
+}
+.input-pass::placeholder{
+	color: black;
+}
+.input-pass{
+	margin-bottom: 20px;
+}
+.input-pass2::placeholder{
+	color: darkorange;
+}
+.input-pass2{
+	margin-bottom: 20px;
+}
+.div-abajo-registro{
+	display: inline-block;
+	box-sizing: border-box;
+	color: black;
+}
+.div-hijo-abajo-registro{
+	width: 100%;
+}
+.p-abajo-registro{
+	color: black;
+	background-color: yellow;
+	display: inline-block;
+	max-width: 45%;
+	box-sizing: border-box;
+	padding: 20px;
+	float: left;
+	border: darkred 6px dashed;
+	margin-left: 50px;
+	z-index: -100;
+}
+.p-abajo-registro-2{
+	color: white;
+	background-color: black;
+	display: inline-block;
+	width: 45%;
+	padding: 20px;
+	border: orange 6px solid;
+	float: right;
+	margin-right: 50px;
+	position: static;
+}
+.p-abajo-registro-2::selection{
+	color: white;
+	background-color: red;
+}
+  .img-abajo{
+  	box-sizing: border-box;
+  	object-fit: contain;
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+}
+.img-abajo-2{
+  	box-sizing: border-box;
+  	object-fit: contain;
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+	position: relative;
+	margin-right: 10px;
+	bottom: 0px;
+	float: right;
+}
+.abajo-de-todo{
+	display: inline-block;
+	box-sizing: border-box;
+	color: black;
+	background: white;
+}
+.contenedor-puto{
+	margin: 50px auto;
+	background-color: #ff1144;
+	position: relative;
+	border: 5px yellow solid;
+	text-align: center;
+	width: 600px;
+	height: 600px;
+}
+
+.puto{
+	position: absolute;
+	margin: 4px red solid;
+	background: grey;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+.el{
+	position: absolute;
+	margin: 4px red solid;
+	background: green;
+	right: 0;
+	width: 100px;
+	height: 100px;
+}
+.que{
+	position: absolute;
+	margin: 4px red solid;
+	background: yellow;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+.lee{
+	position: absolute;
+	margin: 4px red solid;
+	background: black;
+	color: white;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+.esto{
+	position: absolute;
+	margin: 4px red solid;
+	background: white;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	height: 100px;
+}
+.div-jaja{
+	margin: auto;
+	text-align: center;
+}
+.div-jaja-hijo{
+	background: blanchedalmond;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: .5em;
+	margin: 0px auto;
+	padding: 20px;
+}
+.div-jaja-hijo:hover{
+	padding: 40px;
+	outline: 5px solid blue;
+	width: 750px;
+	height: 200px;
+	cursor: pointer;
+	transition: 1s;
+}
+.div-jaja-hijo:active{
+	cursor: alias;
+}
+h1::before{
+	content: "esto es un before jiji";
+	color: darkred;
+}
+h1::after{
+	content: "y esto un ::after claramente jeje";
+	color: yellowgreen;
+}
+
+
+@media only screen and (max-width: 850px){
+ .nav__ul{
+ 	display: none;
+ }
+ .nav{
+ 	height: 100vh;
+ 	margin-bottom: 150px;
+ 	width: 100vw;
+ }
+ .nav__responsive-ul{
+ 	display: block;
+ 	position: absolute;
+ 	width: 100%;
+ }
+ .nav__responsive-li{
+ 	width: 100%;
+ 	padding: 7px;
+ }
+ .nav__responsive-li i{
+ 	text-align: center;
+ 	box-sizing: border-box;
+ 	margin-right: 5px;
+ 	width: 50px;
+ 	color: #c00;
+ }
+ .nav__responsive-li a{
+ 	text-decoration: none;
+ 	color: #00b;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
